@@ -8,9 +8,10 @@ import { createStore, applyMiddleware, compose } from 'redux'
 import reducers from './reducers'
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ || compose
+
 const store = createStore(
     reducers,
-    composeEnhancers(applyMiddleware(thunk))
+    applyMiddleware(thunk)
 )
 
 ReactDOM.render(
