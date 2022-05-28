@@ -11,6 +11,7 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION__ || compose
 
 const store = createStore(
     reducers,
+    // composerEnhancers(applyMiddleware(thunk))        // Configures Redux Dev Tools
     applyMiddleware(thunk)
 )
 

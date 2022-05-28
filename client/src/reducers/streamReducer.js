@@ -18,7 +18,7 @@ export default (state = {}, action) => {
 
         // GET response: single record
         case FETCH_STREAM:
-            return { ...state, [action.payload.id]: action.payload }
+            return { ...state, [action.payload.id]: action.payload }            // key interpolation
 
         // POST response: single record
         case CREATE_STREAM:

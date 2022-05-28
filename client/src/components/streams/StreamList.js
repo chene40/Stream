@@ -6,7 +6,7 @@ import { fetchStreams } from '../../actions'
 class StreamList extends React.Component {
 
     componentDidMount(){
-        this.props.fetchStreams()
+        this.props.fetchStreams()           // update state object to include the array of all streams
     }
 
     renderAdmin(stream){
@@ -58,9 +58,9 @@ class StreamList extends React.Component {
     }
 }
 
-const mapStateToProps  = state => {
+const mapStateToProps = state => {
     return { 
-        streams: Object.values(state.streams),
+        streams: Object.values(state.streams),  // returns an array given an object with values based on the order in the object
         currentUserId: state.auth.userId,
         isSignedIn: state.auth.isSignedIn
     }

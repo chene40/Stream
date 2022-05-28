@@ -22,6 +22,7 @@ export const signOut = () => {
     }
 }
 
+// dispatch and getState function automatically provided to reducers
 export const createStream = formValues => async (dispatch, getState) => {
     const { userId } = getState().auth
     const response = await streams.post('/streams', { ...formValues, userId } )
