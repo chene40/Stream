@@ -28,7 +28,7 @@ export default (state = {}, action) => {
         case DELETE_STREAM:
             return _.omit(state, action.payload)            // does not change original object - creates new object
 
-        // PUT response: single record
+        // PATCH response: single record
         case EDIT_STREAM:
             return { ...state, [action.payload.id]: action.payload }
             

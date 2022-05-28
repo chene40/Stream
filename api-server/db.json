@@ -1,21 +1,4 @@
 {
   "streams": [
-    {
-      "title": "hello",
-      "description": "world",
-      "id": 1
-    },
-    {
-      "title": "My second stream!!",
-      "description": "WOw!!!",
-      "userId": "115963454061917958616",
-      "id": 2
-    },
-    {
-      "title": "Hello !!",
-      "description": "World !!",
-      "userId": "115963454061917958616",
-      "id": 3
-    }
   ]
 }

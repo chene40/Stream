@@ -56,4 +56,7 @@ const validate = (formValues) => {
 }
 
 // reduxForm takes a single object containing all the configurations
-export default reduxForm({form: 'streamForm',validate})(StreamForm)
+export default reduxForm({
+    form: 'streamForm',
+    validate
+})(StreamForm)
