@@ -11,7 +11,7 @@ class StreamDelete extends React.Component {
         this.props.fetchStream(this.props.match.params.id)
     }
 
-    renderActions(){s
+    renderActions(){
         return (
             <>
                 <Link className="ui button" to="/"> Cancel </Link>
