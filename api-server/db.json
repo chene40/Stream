@@ -1,4 +1,16 @@
 {
   "streams": [
+    {
+      "title": "Hello World",
+      "description": "This is a test stream!",
+      "userId": "115963454061917958616",
+      "id": 1
+    },
+    {
+      "title": "Wagwan",
+      "description": "Shawty",
+      "userId": "115963454061917958616",
+      "id": 2
+    }
   ]
 }
