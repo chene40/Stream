@@ -1,18 +1,31 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) .
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Redux (https://github.com/reduxjs/redux)for state management, JSON Server (https://www.npmjs.com/package/json-server) as a local backend and flv.js (https://github.com/bilibili/flv.js) as the RTMP server for streaming.
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can change directory to each of the following dirs:
+- api-server
+- client
+- rtmpserver
 
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view app in your browser.
+Open [http://localhost:3000](http://localhost:3001) to view local backend data in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## Setting up local stream
+
+You can start your own local stream by creating a stream (must login first) then installing Open Broadcaster Software (https://obsproject.com/).
+Within OBS, set up your display capture and audio and then click on Settings > Stream > and configure the properties:
+- Service: Custom...
+- Server: rtmp://localhost/live
+- Stream Key: [id of stream]
 
 ### `npm test`
 
