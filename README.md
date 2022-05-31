@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Redux (https://github.com/reduxjs/redux)for state management, JSON Server (https://www.npmjs.com/package/json-server) as a local backend and flv.js (https://github.com/bilibili/flv.js) as the RTMP server for streaming.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), Redux (https://github.com/reduxjs/redux) for state management, JSON Server (https://www.npmjs.com/package/json-server) as a local backend and flv.js (https://github.com/bilibili/flv.js) as the RTMP server for streaming.
 
 
 ## Available Scripts
 
-In the project directory, you can change directory to each of the following dirs:
+In the project directory, you can change directory to each of the following directories (3 terminals opened simultaneously):
 - api-server
 - client
 - rtmpserver
@@ -13,7 +13,7 @@ In the project directory, you can change directory to each of the following dirs
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view app in your browser.
+Open [http://localhost:3000](http://localhost:3000) to view app in your browser.\
 Open [http://localhost:3000](http://localhost:3001) to view local backend data in your browser.
 
 The page will reload when you make changes.\
